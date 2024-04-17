@@ -13,11 +13,7 @@ module.exports = {
         passphrase: "",
       },
 
-      chainId: 1337,
-      mining: { // Mines a new block every .5 seconds
-        auto: false,
-        interval: 500
-      }
+      chainId: 31337,
     }
   }
 };
