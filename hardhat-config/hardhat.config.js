@@ -14,6 +14,10 @@ module.exports = {
       },
 
       chainId: 31337,
+      mining: { // Mines a new block every .5 seconds
+        auto: false,
+        interval: 1000
+      }
     }
   }
 };
